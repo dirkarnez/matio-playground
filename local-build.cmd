@@ -18,6 +18,8 @@ SET PATH=^
 cmake.exe -G"MinGW Makefiles" ^
 -DCMAKE_BUILD_TYPE=Debug ^
 -Dmatio_ROOT="%DOWNLOADS_DIR_LINUX%/matio-v1.5.26-x86_64-8.1.0-release-posix-seh-rt_v6-rev0" ^
+-DZLIB_USE_STATIC_LIBS=ON ^
+-DZLIB_ROOT="%DOWNLOADS_DIR_LINUX%/zlib-v1.2.13-mingw64-x86_64-posix-seh-rev0-8.1.0" ^
 -B./cmake-build &&^
 cd cmake-build &&^
 cmake --build . &&^
