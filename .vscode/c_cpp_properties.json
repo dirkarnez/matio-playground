@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${env:USERPROFILE}\\Downloads\\portaudio-v19.7.0-mingw64-x86_64-posix-seh-rev0-8.1.0\\include\\**"
+                "${env:USERPROFILE}\\Downloads\\matio-v1.5.26-x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\**"
             ],
             "defines": [
                 "_DEBUG",
